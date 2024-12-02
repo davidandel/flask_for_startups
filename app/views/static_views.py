@@ -13,6 +13,8 @@ from ..permissions import roles_required
 def index():
     return render_template("index.html")
 
+def vstup_rodicu():
+    return render_template("index.html")
 
 def register():
     return render_template("register.html")
